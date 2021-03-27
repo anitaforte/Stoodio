@@ -14,7 +14,6 @@ p {
   width: 100%;
   background-size: cover;
   z-index: 10;
-  background-color:grey;
 }
 .navbar-nav {
   margin-left: auto;
@@ -85,6 +84,11 @@ p {
 }
 .img {
   width: 20px;
+}
+
+.card-img-top {
+  width: 100px;
+  max-height: 200px;
 }
 
 /* Content */
