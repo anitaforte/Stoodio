@@ -10,35 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+
     <title>Stoodio</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PRR986BJJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4PRR986BJJ');
-</script>
-
-<!-- Hotjar Tracking Code for https://anitaforte.github.io/Stoodio/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2323960,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
   </head>
   <body>
 
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-      <a class="navbar-brand" href="#"><img src="images/STOODIO@2x.png">Rock Nation</a>
+      <a class="navbar-brand" href="#"><img src="images/yoga/STOODIO@2x.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,10 +30,13 @@
           <li class="nav-item">
             <a class="nav-link" href="#">CLASSES</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">RETREATS</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NEAR YOU</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">TEACHER TRAINING</a>
+            </div>
           </li>
- 
           <li class="nav-item">
             <a class="btn btn-primary btn-lg navCTA" href="#" role="button">BOOK NOW</a>
           </li>
@@ -66,20 +48,23 @@
     <!-- Jumbotron -->
     <div class="jumbotron rockBackground">
       <div class="jumboCopy">
-        <h1 class="display-4">WE FLOW HARD.</h1>
+        <h1 class="display-4">FLOW HARD</h1>
       </div>
     </div>
     <!-- End jumbotron -->
 
     <!-- Cards -->
     <div class="container-fluid content">
-      <h2 class="sectionHeading">Shows Near You</h2>
+      <p>Studio is sweat dripping, beat bumping, candlelit yoga. All studios are heated to 80-90 degrees using state-of-the-art infrared technology, 
+        which helps create a detoxifying sweat that stimulates blood circulation and increases flexibility. In this music driven practice, you will 
+        flow along to tracks from varied genres. Classes are held in a dark, candlelit room with no mirrors to encourage you to turn your focus 
+        inward and explore your individual practice.</p>
       <div class="row showsNear">
 
         <!-- Card 1 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/Sweat@2x.png" class="card-img-top" alt="...">
+            <img src="images/yoga/sweatdripping@2x.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Sweat Dripping</h5>
             </div>
@@ -90,7 +75,7 @@
         <!-- Card 2 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/Music@2x.png" class="card-img-top" alt="...">
+            <img src="images/yoga/beatpumping@2x.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Beat Pumping</h5>
             </div>
@@ -101,7 +86,7 @@
         <!-- Card 3 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/Candle@2x.png" class="card-img-top" alt="...">
+            <img src="images/yoga/candle-335965_1920.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Candelit Yoga</h5>
             </div>
@@ -111,3 +96,33 @@
       </div>
     </div>
     <!-- End cards -->
+
+
+    <!-- Footer -->
+    <footer class="emailContain">
+      <form>
+        <h3 class="sectionHeading">Join Our Mailing List</h3>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>

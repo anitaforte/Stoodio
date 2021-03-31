@@ -12,6 +12,8 @@ p {
 .customNav {
   position: fixed;
   width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
   background-size: cover;
   z-index: 10;
 }
@@ -21,13 +23,11 @@ p {
 }
 .navbar-brand img {
   padding-right: 15px;
-  width: 100px;
+  width: 65px;
 }
 .nav-item {
   margin: 0px 15px;
 }
-
-
 
 /* Navigation dropdown menu */
 .dropdown-menu {
@@ -51,7 +51,7 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url(../images/Yoga@2x.png);
+  background-image: url(../images/yoga/homehero@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
@@ -62,7 +62,7 @@ p {
 
 /* Jumbotron copy */
 .jumboCopy {
-  width: 100%;
+  width: 70%;
   min-width: 500px;
   max-width: 700px;
   color: white;
@@ -81,14 +81,6 @@ p {
 }
 .cardContainer {
   text-align: center;
-}
-.img {
-  width: 20px;
-}
-
-.card-img-top {
-  width: 100px;
-  max-height: 200px;
 }
 
 /* Content */
@@ -148,8 +140,4 @@ footer {
 }
 .card {
   margin: 0 auto;
-}
-.card-image-top {
-    width: 100px;
-    height: auto;
 }
