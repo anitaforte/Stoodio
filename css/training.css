@@ -134,3 +134,13 @@ footer {
   vertical-align: top;
   display: inline-block;
 }
+
+.display-4 {
+  font-size: 5.0rem;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
